@@ -1,0 +1,5 @@
+Je suis magna ! J'utilise le terminal xterm-256color avec le shell /bin/bash et voici la liste des fichiers présent dans mon home /home/magna : 
+total 12
+drwxr-xr-x 4 magna magna 4096 Oct  3 13:02 GCC-2425-student
+drwxr-xr-x 3 magna magna 4096 Nov  6 21:03 rep1
+-rw-r--r-- 1 magna magna  262 Nov  6 21:25 test.txt

@@ -1,13 +1,13 @@
 cmake_minimum_required(VERSION 3.1 FATAL_ERROR)
 
-project(    tp0
-            DESCRIPTION "Chapter 0"
+project(    tp1
+            DESCRIPTION "Chapter 1"
             LANGUAGES C CXX
 )
 
 message("# Build configuration for ${CMAKE_PROJECT_NAME} with CMake ${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION}")
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 17)
 if(MSVC)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /Wall /std:c++${CMAKE_CXX_STANDARD}")
 else()

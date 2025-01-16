@@ -1,0 +1,31 @@
+bc est une calculatrice en ligne de commande.
+bc est un exécutable.
+
+type rm affiche que rm est une commande binaire intégrée.
+Cela signifie qu'elle est intégrée au shell et pas externe.
+
+exécute bc avec le contenu de data comme entrée.
+"<" redirige le contenu d’un fichier vers l’entrée standard.
+
+les en-têtes HTTP des requêtes faites aux sites respectifs.
+
+Une page avec des liens du World Wide Web.
+
+${USER} : Contient le nom d’utilisateur connecté.
+${TERM} : Indique le type de terminal utilisé.
+${SHELL} : Montre le shell par défaut de l’utilisateur.
+${HOME} : Définit le chemin vers le répertoire personnel de l’utilisateur.
+
+${PATH}
+${PWD}
+${HOSTNAME}
+${LANG}
+${UID}
+
+"env" liste toutes les variables d’environnement et leur contenu dans le terminal.
+
+-bash: ./runMain.sh: Permission denied
+
+Le fichier devient exécutable pour l’utilisateur (7 = lecture, écriture, exécution), ainsi que pour le groupe et les autres (5 = lecture et exécution uniquement).
+
+pas temps "réel", il inclut une marge d’erreur liée au processus de lancement du programme par le système.
