@@ -48,4 +48,4 @@ struct InsertionSort final : ISort
 };
 
 
-#endif
+#endif //INSERTIONSORT_HPP

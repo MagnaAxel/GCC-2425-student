@@ -70,4 +70,4 @@ struct QuickSort final : ISort
     }
 };
 
-#endif
+#endif //QUICKSORT_HPP

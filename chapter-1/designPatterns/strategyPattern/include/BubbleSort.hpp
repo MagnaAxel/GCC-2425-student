@@ -46,4 +46,4 @@ struct BubbleSort final : ISort
 };
 
 
-#endif
+#endif //BUBBLESORT_HPP

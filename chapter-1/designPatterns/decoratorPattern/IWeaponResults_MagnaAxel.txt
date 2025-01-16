@@ -1,0 +1,8 @@
+./tp1 enchant
+Sword enchant, atk:  20
+
+./tp1 sharp
+Sword sharp, atk:  15
+
+./tp1 enchant sharp enchant
+Sword enchant, sharp, enchant, atk:  35
