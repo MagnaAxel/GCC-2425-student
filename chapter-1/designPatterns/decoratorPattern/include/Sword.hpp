@@ -10,8 +10,11 @@ public:
     }
 
     int getDamage() const override {
-        return 10;
+        return DAMAGE;
     }
+    
+private:
+    static constexpr int DAMAGE = 10;
 };
 
 #endif //SWORD_HPP

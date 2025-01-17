@@ -13,8 +13,10 @@ public:
     }
 
     int getDamage() const override {
-        return weapon->getDamage() + 10;
+        return weapon->getDamage() + DAMAGE;
     }
+private:
+    static constexpr int DAMAGE = 10;
 };
 
 #endif //ENCHANTMENTDECORATOR_HPP

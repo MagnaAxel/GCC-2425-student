@@ -13,8 +13,10 @@ public:
     }
 
     int getDamage() const override {
-        return weapon->getDamage() + 5;
+        return weapon->getDamage() + DAMAGE;
     }
+private:
+    static constexpr int DAMAGE = 5;
 };
 
 #endif //SHARPENINGDECORATOR_HPP

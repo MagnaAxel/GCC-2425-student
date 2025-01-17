@@ -7,6 +7,9 @@
 #include "InsertionSort.hpp"
 #include "QuickSort.hpp"
 
+constexpr int minRandom = 0;
+constexpr int maxRandom = 255;
+
 void genericSorting(std::vector<int>& vector)
 {
     std::unique_ptr<ISort> sortingAlgorithm = std::make_unique<QuickSort>();
@@ -36,7 +39,7 @@ void displayVector(const std::vector<int>& vector)
 std::vector<int> randomSizedVector (const size_t& size) 
 {
     std::mt19937 gen(std::random_device{}());
-    std::uniform_int_distribution dis(0, 255);
+    std::uniform_int_distribution dis(minRandom, maxRandom);
 
     std::vector<int> vector = std::vector<int>();
     vector.reserve(size);
